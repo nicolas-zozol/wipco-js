@@ -1,0 +1,9 @@
+{
+    todos{
+        id
+        user(id:"@nicolas"){
+            id
+            last_name
+        }
+    }
+}

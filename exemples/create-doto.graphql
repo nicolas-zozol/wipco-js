@@ -1,0 +1,7 @@
+mutation createTodo {
+    createTodo(input: {body:"test"}) {
+        id
+        body
+        completed_at
+    }
+}
